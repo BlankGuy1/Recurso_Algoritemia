@@ -14,7 +14,7 @@ def insere_elemento_dic(dicionario):
     Dic_entr = input("Novo pare chave-valor separado por ':' : ")
 
     chave, valor = Dic_entr.split(':')
-    dicionario[chave] = valor
+    dicionario[chave] = int(valor)
     print(f"Novo dicionario: {dicionario}")
     return dicionario
 

@@ -152,5 +152,3 @@ while True:
                 break
     if opcao == 4:
         break
-    else:
-        print("Erro o numero que digitou não e valido")
