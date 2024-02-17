@@ -108,14 +108,14 @@ while True:
               "\n 8 - Apagar lista"
               "\n 9- Concatenar duas listas"
               "\n 10 - Sair")
-        opcao = int(input("Selecione: "))
         while True:
+            opcao = int(input("Selecione: "))
             if opcao == 1:
-                numero = int(input("Item a enserir: "))
+                numero = int(input("Item a inserir: "))
                 lista1.inserir_inicio(numero)
                 lista1.imprimir()
             if opcao == 2:
-                numero = int(input("Item a enserir: "))
+                numero = int(input("Item a inserir: "))
                 lista1.inserir_fim(numero)
                 lista1.imprimir()
             if opcao == 3:

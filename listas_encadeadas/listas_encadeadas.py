@@ -28,12 +28,13 @@ class ListaEncadeada:
         n = self.primeiro
         if n is None:
             return
-        while n.prox != self.ultimo:
-            n = n.prox
-        del(n.prox)
-        n.prox = None
-        self.ultimo = n
-        return
+        elif n is not None:
+            while n.prox != self.ultimo:
+                n = n.prox
+            del(n.prox)
+            n.prox = None
+            self.ultimo = n
+            return
 
     def imprimir(self):
         n = self.primeiro
